@@ -1,0 +1,87 @@
+.title-index{
+    position: center;
+    padding: 50px;
+    color: red;
+}
+
+.navigation__link{
+    color: #036;
+    font-family: "Ubuntu Condensed","Trebuchet MS","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Tahoma,sans-serif;
+    text-transform: uppercase;
+    font-size: 117%;
+    display: block;
+    cursor: pointer;
+    outline: 0;
+    text-decoration: none;
+
+    background-position: -313px -434px;
+    width: 22px;
+    height: 22px;
+    content: '';
+    margin: 0 auto 3px;
+    vertical-align: middle;
+}
+
+.login__button{
+    /*display: inline-block;*/
+    /*!*line-height: 24px;*!*/
+    /*vertical-align: middle;*/
+
+    /*text-transform: uppercase;*/
+    /*text-align: center;*/
+    /*left: 0;*/
+    /*top: 50%;*/
+    /*background-position-x: -511px;*/
+    /*background-position-y: -356px;*/
+    /*margin-top: -8.5px;*/
+    /*border-color: black;*/
+    /*width: 100px;*/
+    /*padding-top: 10px;*/
+    /*padding-right: 20px;*/
+    /*padding-bottom: 10px;*/
+    /*padding-left: 0;*/
+    /*line-height: normal;*/
+    /*text-size-adjust: 100%;*/
+    /*justify-content: flex-end;*/
+    /*vertical-align: middle;*/
+    /*white-space: nowrap;*/
+
+    box-shadow: 0 3px 0 1px rgba(18, 35, 102, 0.3);
+    display: inline-block;
+    text-align: center;
+    background-color: #005481;
+    border-color: #42eadd;
+    font-size: 32px;
+    padding: 12px 24px;
+    margin-bottom: 4px;
+    width: 100%;
+    border-radius: 5px;
+    border-width: 2px;
+    line-height: 1.2;
+    border-style: solid;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    outline: 0;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+    font-family: Ubuntu,"Trebuchet MS","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Tahoma,sans-serif;
+
+}
+
+.registrar__button{
+    box-shadow: 0 3px 0 1px rgba(18, 35, 102, 0.3);
+    background-color: #810025;
+    border-color: #42eadd;
+}
+
+.menu__inicial{
+    position: fixed;
+    width: 100%;
+    line-height:2;
+    z-index: 1;
+}
+
+.row{
+    border: black;
+}
